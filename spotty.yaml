@@ -35,7 +35,7 @@ instances:
     parameters:
       region: us-east-1
       instanceType: p2.xlarge
-      spotInstance: true
+      spotInstance: false
       ports: [6006, 6007, 8888]
       volumes:
         - name: workspace
