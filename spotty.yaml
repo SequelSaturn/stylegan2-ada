@@ -5,7 +5,6 @@ project:
         - .git/*
         - .idea/*
         - '*/__pycache__/*'
-        - out/*
 
 containers:
   - &DEFAULT_CONTAINER
